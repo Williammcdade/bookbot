@@ -13,7 +13,7 @@ def main():
     print(f"Found {num_words} total words")
     print("--------- Character Count -------")
     for char in sorted_chars:
-        print(str(char))
+        print(f"{char[0]}: {char[1]}")
 
 
 def get_book_text(path):
